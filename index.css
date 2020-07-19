@@ -1,0 +1,1231 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: -15px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* top栏开始 */
+.top {
+    width: 100%;
+    height: 60px;
+    background-color: #FF0036;
+    position: fixed;
+z-index: 99;
+}
+.top-inner {
+    width: 1230px;
+    height: 60px;
+    padding-right: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo {
+    width: 160px;
+    height: 30px; 
+    position: absolute;
+    left: 0;
+    top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:fpNewIconFont;
+}
+.logo span {
+    color: #fff;
+    line-height: 30px;
+}
+.mall-search {
+    float: none;
+    width: 740px;
+    margin: 0 auto;
+    padding-top: 15px;
+
+}
+.mallSearch-form {
+    border:2px solid #FF0036;
+}
+.mallSearch-input {
+    height: 30px;
+    font-size: 14px;
+    position: relative;
+    background-color: #fff;
+}
+ .s-combobox-input{
+    width: 483px;
+    height: 26px;
+    padding: 5px 3px 5px 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.s-combobox-input-placeholder {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: rgb(102, 102, 102);
+}
+.btn {
+    width: 132px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: #FF0036;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+}
+/* top栏结束 */
+/* 导航栏开始 */
+.mui-global-biz-mallfp {
+    width: auto;
+    height: auto;
+    min-width: 990px;
+
+
+ 
+}
+.site-nav {
+    width: auto;
+    min-width: 990px;
+    height: 32px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+}
+.sn-bd {
+    width: 1230px;
+    position: relative;
+    left: -15px;
+    margin: auto;
+    padding: 0;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+
+}
+.sn-login-info {
+    color: #999;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;  
+}
+.sn-login {
+    line-height: 35px;
+    padding: 0 10px;
+    padding-left: 20px;
+    
+}
+.sn-register {
+    line-height: 35px;
+    padding:0 10px;
+    margin: 0;
+}
+.sn-quick-menu {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    list-style: none;
+}
+.sn-mytaobao {
+    float: left;
+    position: relative;
+}
+.sn-menu {
+    position: relative;
+}
+.menu-hd {
+    padding-right: 14px;
+    display: block;
+    border-width: 0 1px;
+    position: relative;
+}
+b {
+    position: absolute;
+    right: 2px;
+    top: 6px;
+    border-width: 3px;
+    border-style: solid dashed dashed;
+    font-weight: bold;
+    font-size: 0;
+    line-height: 0;
+    border-color: #bbb transparent transparent;
+}
+.sn-cart {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+    float: left;
+}
+.sn-cart-link {
+    text-align: center;
+}
+.sn-separator {
+    width: 0;
+    height: 14px;
+    border-left: 1px solid #ccc;
+    margin: 0 2px 0 5px;
+    float: left;
+}
+/* 导航栏结束 */
+/* header开始 */
+.header {
+    height: 130px; 
+}
+.tmall-logo {
+    width: 290px;
+    height: 130px;
+    margin: 1px 125px;
+    float: left;
+}
+.tmall-logo-img {
+    width: 240x;
+    height: 130px;
+    
+}
+.mallSearch {
+    width: 625px;
+    padding-top: 38px;
+    margin: 0 auto;
+    
+}
+.mallSearch-form {
+    border:2px solid #FF0036;
+}
+.mallSearch-input {
+    height: 36px;
+    font-size: 14px;
+    position: relative;
+}
+ .s-combobox-input{
+    width: 483px;
+    height: 26px;
+    padding: 5px 3px 5px 5px;
+    background:0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none
+}
+.s-combobox-input-placeholder {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: rgb(102, 102, 102);
+}
+.btn {
+    width: 132px;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: #FF0036;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+}
+/* header开始 */
+/* nav开始 */
+.nav {
+    width: 100%;
+    height: 36px;
+    border-bottom: 1.5px solid red;
+    line-height: 36px;
+}
+.nav-inner{
+    width: 1230px;
+    height: 100%;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+.inner-icon {
+    margin-left: 200px;
+    height: 100%;
+    width: 1030px;
+    clear: both;  
+}
+.inner-icon a{
+    height: 35px;
+    float: left;
+    cursor: pointer;
+    padding: 0 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+    display: block;
+}
+.inner-icon a img{
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+}
+/* nav结束 */
+/* banner开始 */
+.banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.category-type {
+    width: 200px;
+    height: 36px;
+    position: absolute;
+    top: -36px;
+    left: 125px;
+    color: #fff;
+    line-height: 36px;
+}
+.category-one {
+    width: 200px;
+    height: 36px;
+    background-color: #FF0036;
+    float: left;
+}
+.category-one .i{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.category-one .i .iconfont{
+    width: 40px;
+    height: 8px;
+    line-height: 8px;
+}
+.category-one .category-tow {
+    float: left;
+}
+.category-list {
+    width: 200px;
+    height: 500px;
+    background-color: rgba(0,0,0,.55);
+    position: absolute;
+    left: 125px;
+    z-index: 4;
+}
+.list-nav-li {
+    width: 100%;
+    height: 31.2px;
+    line-height: 31.2px;
+    color: #fff;
+    font-size: 14px;
+}
+.list-nav-li i {
+    margin-left: 14px;
+    margin-right: 4px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 16px;
+}
+.list-nav-li a {
+    color: pink;
+}
+.list-nav-li:hover {
+    background-color: #fff;
+    
+}
+.category-list-more {
+    position: absolute;
+    top: 0;
+    left: 325px;
+    width: 800px;
+    height: 500px;
+    z-index: 4;
+    background-color: #fff;
+    z-index: -1;
+}
+.item-con {
+    width: 583px;
+    height: 62px;
+    margin-left: 20px;
+}
+
+.item-con .item-title {
+    width: 60px;
+    color: #333;
+    margin-right: 30px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px;
+    height: 22px;
+    float: left;
+    text-align-last: justify;
+}
+.item-con i {
+    float: left;
+    color: #333;
+    line-height: 22px;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.item-con .a-con {
+    float: left;
+    width: 493px;
+    line-height: 32px;
+}
+.back-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner-img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+}
+.banner-img a {
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: no-repeat;
+    margin-left: 180px;
+}
+.banner-img:nth-child(1){background-color: rgb(232,232,232);}
+.banner-img:nth-child(2){background-color: rgb(232,232,232);}
+.banner-img:nth-child(3){ background-color: rgb(241,61,22);}
+.banner-img:nth-child(4){background-color: rgb(54,1,190);}
+.banner-img:nth-child(5){background-color: rgb(232,232,232);}
+.banner-img:nth-child(1) a{
+   background-image: url(https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg);
+   
+}
+.banner-img:nth-child(2) a{
+    background-image: url(https://img.alicdn.com/tps/i4/TB1o8i7weH2gK0jSZJnSuuT1FXa.jpg);
+    
+}
+.banner-img:nth-child(3) a{
+    background-image: url(https://img.alicdn.com/tfs/TB1ftPuNLb2gK0jSZK9XXaEgFXa-1130-500.jpg_q100.jpg_.webp);
+   
+}
+.banner-img:nth-child(4) a{
+    background-image: url(http://img.alicdn.com/imgextra/i4/149/O1CN01EW8R7w1CyHcm8YpJo_!!149-0-luban.jpg_q100.jpg_.webp);
+    
+}
+.banner-img:nth-child(5) a{
+    background-image: url(https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg);
+    
+}
+.btns {
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 20px;
+    z-index: 2;
+}
+
+.btns li {
+    width: 15%;
+    height: 10px;
+    margin-left: 5%;
+    cursor: pointer;
+    float: left;
+}
+.btns li:nth-child(1) {
+    background-color: blueviolet;
+}
+/* banner结束 */
+/* 夏日狂欢开始 */
+.menu-one {
+    width: 100%;
+    height: 360px;
+}
+.menu-one-box {
+    width: 1240px;
+    height: 100%;
+    margin: 30px auto 0;
+}
+.menu-one-box img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 600px;
+    height: 40px;
+}
+.menu-one-box a {
+    float: left;
+    display: block;
+    width: 238px;
+    margin-right: 10px;
+}
+.menu-one-box a img {
+    width:238px ;
+    height: 269px;
+}
+.menu-one-box a:hover {
+        opacity: 0.7;
+}
+/* 夏日狂欢结束 */
+/* logo区开始 */
+.show-logos {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.logos-con {
+    width: 1260px;
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-right: 30px;
+}
+
+.big-img {
+    width: 1230px;
+    height: 370px;
+    margin: 0 auto;
+}
+
+.big-img .sale, .big-img .channel, .big-img .activity{
+    height: 370px;
+    float: left;
+}
+
+.sale img {
+    width: 234px;
+    height: 315px;
+}
+
+.channel img, .activity img {
+    width: 485px;
+    height: 315px;
+}
+
+.big-img .head {
+    height: 55px;
+    position: relative;
+    background-color: #fff;
+}
+
+.big-img .head .cn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 54px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.big-img .head .en {
+    display: inline-block;
+    font-weight: 700;
+    color: #333;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 24px;
+    height: 44px;
+}
+
+.big-img .head .more {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    background-image: url(https://img.alicdn.com/tfs/TB1B7RoaMMPMeJjy1XcXXXpppXa-36-36.png);
+    background-position: right center;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 16px;
+    color: #666;
+    overflow: hidden;
+    z-index: 10;
+    padding-right: 14px;
+}
+
+.big-img .body {
+    display: inline-block;
+    height: 315px;
+}
+
+.big-img .body:hover {
+    opacity: .7;
+}
+
+.sale {
+    width: 234px;
+    margin-right: 13px;
+}
+
+.sale .more {
+    text-indent: -99px;
+}
+
+.channel {
+    width: 485px;
+    margin-right: 13px;
+}
+
+.channel .head {
+    border-bottom: 1px solid #eee;
+}
+
+.activity {
+    width: 485px;
+}
+
+.sm-logo {
+    overflow: hidden;
+    width: 1230px;
+    height: 342px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.brand-item {
+    width: 122px;
+    height: 108px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    float: left;
+    position: relative;
+}
+
+.brand-img {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 108px;
+    background-color: #fff;
+}
+
+.brand-img img {
+    width: 82%;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.brand-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .8);
+    transition: all .3s ease-out;
+    opacity: 0;
+}
+
+.coupon {
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    height: 60px;
+}
+
+.coupon span {
+    display: block;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.enter {
+    height: 32px;
+    text-align: center;
+}
+
+.enter span {
+    display: inline-block;
+    color: #fff;
+    width: 63px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #ff0036;
+    border-radius: 9px;
+}
+
+.brand-item:hover .brand-mask {
+    opacity: 1;
+}
+
+.brand-fresh {
+    float: left;
+}
+
+.brand-fresh a {
+    display: block;
+    width: 122px;
+    height: 108px;
+    background-color: #fff;
+    color: #999;
+    position: absolute;
+    transition: all .3s ease-out;
+}
+
+.brand-fresh a i {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 38px;
+    margin-left: -20px;
+    margin-top: -30px;
+    transition: transform .5s ease-out;
+}
+
+.brand-fresh a span {
+    font-size: 14px;
+    position: absolute;
+    bottom: 26px;
+    left: 40px;
+}
+
+.brand-fresh:hover a {
+    color: #fff;
+    background-color: #ff0036;
+}
+
+.brand-fresh:hover i {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1260px) {
+    .big-img {
+        width: 982px;
+    }
+
+    .sale {
+        display: none;
+    }
+
+    .channel {
+        margin-right: 12px;
+    }
+
+    .activity {
+        margin-right: 0;
+    }
+
+    .sm-logo {
+        width: 984px;   
+    }
+
+    .brand-item:nth-child(29), .brand-item:nth-child(28), .brand-item:nth-child(27), .brand-item:nth-child(26), .brand-item:nth-child(25), .brand-item:nth-child(24) {
+        display: none;
+    }
+}
+/* logo区结束 */
+
+/* 天猫超市开始 */
+.mark {
+    margin: 20px auto 0;
+    width: 1230px;
+    padding-right: 30px;
+}
+.mark-box {
+    margin-top: 20px;
+    width: 100%;
+    height: 665px;
+    position: relative;
+}
+.mark-title {
+    height: 28px;
+}
+.mark-title img {
+    height: 25px;
+    width: 214px;
+}
+.mark-neirong {
+    width: 100%;
+    height: 618px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.big-banner {
+    float: left;
+    position: relative;
+    width: 235px;
+    height: 618px;
+}
+.big-banner img {
+width: 100%;
+height: 618px;
+}
+.neirong-column {
+    width: 995px;
+    height: 618px;
+    float: left;
+}
+.neirong-column .box {
+    width: 484px;
+    height: 316px;
+    margin-left: 10px;
+    float: left;
+    display: block;
+    position: relative;
+    background-color: #fff;
+}
+
+.min-box {
+    width: 462px;
+    height: 282px;
+    margin: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.09);
+    position: relative;
+}
+.floor-tab-head {
+    overflow: hidden;
+    background-color: #F1F1F1;
+}
+.floor-current-tab {
+    height: 57px;
+    width: 231px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #00B262;
+    float: left;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.tab-title {
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 20px;
+        display: block;
+}
+.floor-tab-detail {
+   width: 462px;
+   height: 225px;
+}
+.right-detail {
+    position: absolute;
+    top: 153px;
+    height: 87px;
+    width: 291px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-color: rgba(0,0,0,0);
+    background-image: url(https://img.alicdn.com/tfs/TB1AnTXewMPMeJjy1XcXXXpppXa-290-87.png);
+    z-index: 99;
+}
+.title-wrap {
+    margin-left: 26px;
+    margin-top: 8px;
+}
+.cal-icon {
+    width: 23px;
+    height: 23px;
+    margin-top: -10px;
+}
+.tab-item-title {
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #00B262;
+}
+.tab-desp {
+    margin-left: 26px;
+    font-size: 20px;
+    letter-spacing: 1px
+}
+.item-img {
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+.floor-list-a {
+    width: 235px;
+    height: 301px;
+    margin-left: 13px;
+    text-align: center;
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+    background-color: #fff;
+}
+.floor-list-a:hover {
+    opacity: 0.7;
+}
+.neirong-floor {
+    width: 234px;
+    height: 300px;
+    border: 1px solid #fff;
+}
+.floor-tag {
+    width: 68px;
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.floor-img {
+    width: 185px;
+    height: 185px;
+}
+.floor-item-title {
+    width: 135px;
+    height: 40px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 8px auto;
+}
+.floor-price {
+    font-size: 18px;
+    color: #FF0036;
+    line-height: 18px;
+    margin: 10px auto
+}
+/* 天猫超市结束 */
+/* 天猫国际开始 */
+.guoji {
+    margin-top: 20px;
+    width: 100%;
+    height: 665px;
+}
+.guoji-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #000;
+    height: 28px;
+}
+.guoji-title img {
+    width: 214px;
+    height: 25px;
+}
+.guoji-neirong {
+    width: 100%;
+    height: 618px;
+    margin-top: 10px;
+}
+.guoji-list {
+    float: left;
+    position: relative;
+    width: 235px;
+    height: 618px;
+}
+.guoji-list a{
+    width: 235px;
+    height: 301px;
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+}
+.guoji-list a:hover {
+    opacity: 0.7;
+    border: 1px solid red;
+}
+.guoji-list a img {
+    width: 235px;
+    height: 301px;
+}
+.guoji-list-lab {
+    position: absolute;
+    vertical-align: middle;
+    bottom: 20%;
+    width: 218px;
+    height: 64px;
+}
+.left-title-wrap {
+    background: rgba(0,0,0,.9);
+    width: 70px;
+    height: 64px;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    display: table-cell;
+}
+.right-title-wrap {
+    left: 70px;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    padding-left: 14px;
+    overflow: hidden;
+    width: 128px;
+    height: 64px;
+    color: #FFF;
+}
+.guoji-list-lab span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 18px;
+    width: 36px
+}
+.guoji-list-lab2 {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.guoji-list-lab2 img{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 32px!important;
+    height: 32px!important
+}
+.guoji-list-right {
+    width: 995px;
+    height: 618px;
+    float: left;
+    overflow: hidden
+}
+.guoji-list-right-item {
+    width: 235px;
+    height: 301px;
+    margin-left: 13px;
+    float: left;
+    display: block;
+    border-bottom: 15px solid #f5f5f5;
+    position: relative;
+}
+.guoji-list-right-item:hover {
+    opacity: 0.7;
+    border: 1px solid red;
+}
+.guoji-list-right-item .title {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 220px;
+    font-size: 18px;
+    z-index: 10;
+    line-height: 24px;
+    height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.guoji-list-right-item .sub-title {
+    position: absolute;
+    top: 49px;
+    left: 25px;
+    width: 220px;
+    font-size: 14px;
+    z-index: 10;
+    line-height: 18px;
+    height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #7A45E5;
+}
+.guoji-list-right-item img {
+    width: 170px;
+    height: 170px;
+    margin: 90px 33px 42px 32px;
+}
+/* 天猫国际结束 */
+/* 底部开始 */
+.bot {
+    width: 100%;
+    border-top: 1px solid #d1d7dc;
+}
+
+.tmall-ensure {
+    width: 1190px;
+    height: 100px;
+    margin: 25px auto;
+    background: url(//img.alicdn.com/tfs/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg) no-repeat;
+}
+
+.tmall-ensure a {
+    display: block;
+    float: left;
+    width: 297px;
+    height: 100px;
+}
+
+.tmall-desc {
+    width: 1190px;
+    margin: 0 auto;
+    height: 213px;
+    padding-top: 22px;
+    border-top: 1px solid #ededed;
+    background: url(//img.alicdn.com/tfs/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png) 45px bottom;
+    background-repeat: no-repeat;
+    background-size: 68px 25px;
+}
+
+.tmall-desc dl {
+    float: left;
+    width: 238px;
+    padding-left: 52px;
+}
+
+.tmall-desc dl dt {
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tmall-desc dl dd a {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+
+.tmall-desc .mobile a {
+    display: block;
+    width: 105px;
+    height: 105px;
+}
+
+.tmall-desc .mobile a img {
+    width: 105px;
+}
+
+.tmall-copyright {
+    border-top: 2px solid #ff0036;
+    background-color: #000000;
+}
+
+div[class^=footer] {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.footer-info, .footer-link {
+    font-size: 12px;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.footer-info a,  .footer-link a {
+    color: #fff;
+    line-height: 25px;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    line-height: 20px;
+    color: #a4a4a4;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.footer-copyright a {
+    color: #a4a4a4;
+    margin-right: 65px;
+}
+
+.footer-copyright div {
+    color: #686868;
+    font-weight: 400;
+}
+
+.footer-copyright p {
+    padding: 10px 0 5px 0;
+}
+
+.serv {
+    line-height: 18px;
+    color: #000;
+    text-align: center;
+    font-size: 11px;
+    background-color: #000;
+}
+
+@media (max-width: 1210px) {
+    .tmall-ensure {
+        width: 990px;
+        background-image: url(//img.alicdn.com/tfs/TB1I8svRXXXXXcUXpXXXXXXXXXX-990-100.jpg);
+    }
+
+    .tmall-ensure a {
+        width: 247px;
+    }
+
+    .tmall-desc {
+        width: 990px;
+        background-position: 12px bottom;
+    }
+
+    .tmall-desc dl {
+        padding-left: 15px;
+        width: 215px;
+    }
+
+    .tmall-desc .mobile {
+        width: 110px;
+    }
+
+    .tmall-copyright .footer-info, .tmall-copyright .footer-link, .tmall-copyright .footer-copyright {
+        width: 990px;
+    }
+}
+/* 底部结束 */
+/* 导航栏开始 */
+.nav-ce {
+    position: fixed;
+    left: 50px;
+    bottom: 70px;
+    width: 36px;
+    height: 230px;
+    z-index: 100;
+}
+.nav-ce-scroll {
+    width: 36px;
+    height: 152px;
+}
+.backtop, .nav-ce-div, .nav-ce li{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-top: 2px;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.6);
+    color: #fff;
+    cursor: pointer;
+}
+.nav-ce-scroll li[color=green]:hover {
+    background-color: green !important;
+}
+.nav-ce-scroll li[color=red]:hover {
+    background-color: red !important;
+}
+.nav-ce-scroll li[color=blue]:hover {
+    background-color: blue !important;
+}
+.nav-ce-scroll li[color=orange]:hover {
+    background-color: orange !important;
+}
+
+/* 导航栏结束 */
